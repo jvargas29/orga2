@@ -26,6 +26,7 @@ bits para paginas | bits para el offset
 **D).** 
 
 Memoria Fisica = 1 GB
+
 2^30 = 1 GB
 
 1 GB de memoria fisica / 4K de frames = frames en memoria
