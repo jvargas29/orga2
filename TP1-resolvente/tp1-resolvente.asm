@@ -1,5 +1,9 @@
+;%include "io.inc"
+extern printf
+
 section .data
-    formato db "la suma es : %f", 10,13,0
+    formato db "Valor de x1: %f", 10,13,0
+    formato2 db "Valor de x2: %f", 10,13,0
 
     valorA dd 0.0
     valorB dd 0.0
@@ -15,22 +19,20 @@ section .data
     BNegativoMasResultRaiz dd 0 
     BNegativoMenosResultRaiz dd 0
     result2A dd 0
-    X1 dd 0
-    X2 dd 0
+    X1 dq 0
+    X2 dq 0
     total dw 0
     contador dd 0
     resul dq 0
 section .text
 global CMAIN
-extern printf
 CMAIN:
-    mov ebp, esp; for correct debugging
         
     push ebp ;enter 0,0
-   mov ebp, esp; enter 0,0
+    mov ebp, esp; enter 0,0
     
-     xor eax, eax
-     xor ebx,ebx
+    xor eax, eax
+    xor ebx,ebx
     xor ecx, ecx
     xor edx,edx
     
@@ -102,9 +104,10 @@ CMAIN:
     fld dword[result2A]
     fdiv
     fstp qword[X2]
+    
     push dword[X2+4]
     push dword[X2]
-    push formato
+    push formato2
     call printf
     add esp, 12   
                 
