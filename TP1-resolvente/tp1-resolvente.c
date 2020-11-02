@@ -14,7 +14,7 @@ void validarCantidadCaracteres(int length){
 int validarCaracteres(char caracteres[], int length){
     int cantPuntos = 0;
 
-    if(length-1 ==0){
+    if(caracteres[0]==0x0A){
       printf("\nNo se puede cargar valor vacio\n");
         return 0;  
     }
