@@ -2,8 +2,8 @@
 extern printf
 
 section .data
-    formato db "Valor de x1: %f", 10,13,0
-    formato2 db "Valor de x2: %f", 10,13,0
+    formato db "Resultado de X1: %f", 10,13,0
+    formato2 db "Resultado de X2: %f", 10,13,0
 
     valorA dd 0.0
     valorB dd 0.0
