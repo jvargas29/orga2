@@ -1,4 +1,4 @@
-## Ejercicio 6
+## Ejercicio 6. Gestion de memoria
 
 
 Se encuentran cargados los siguientes registros de segmento para el proceso P1:
