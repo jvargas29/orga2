@@ -1,4 +1,4 @@
-##Ejercicio 6
+## Ejercicio 6
 
 
 Se encuentran cargados los siguientes registros de segmento para el proceso P1:
