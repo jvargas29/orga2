@@ -24,7 +24,7 @@ Se deben realizar los siguientes pasos en un sistema operativo linux o una maqui
 
 3). Luego se debe ingresar a la carpeta "TP1-resolvente" y copiar la direcion donde se encuentra ubicada dicha carpeta. (Click derecho en TP1-resolvente -> Propiedades)
 
-![carpeta tp1](https://github.com/jvargas29/orga2/blob/main/imagenes/repo-en-carpeta.JPG)
+![carpeta tp1](https://github.com/jvargas29/orga2/blob/main/imagenes/copiar-dir-carpeta-repo-tp1.JPG)
 
 4). Ahora se debe abrir la terminal de linux, y con el comando cd pegar la direccion copiada en el paso anterior, agregando "/TP1-resolvente" al final para ubicarnos por terminal en la carpeta donde se encuentra el programa y el archivo ejecutable del mismo.
 
