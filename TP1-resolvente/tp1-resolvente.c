@@ -79,11 +79,7 @@ int main()
     a = strtod(characterA,NULL);
     b = strtod(characterB,NULL);
     c = strtod(characterC,NULL);
-
-    printf("Conversion a float: %f\n", a);
-    printf("Conversion a float: %f\n", b);
-    printf("Conversion a float: %f\n", c);
-    
+   
 
    CMAIN( a,  b,  c);
 
